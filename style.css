@@ -14,3 +14,24 @@ main {
   place-items: center;
   text-align: center;
 }
+
+.sad-santa {
+  margin-top: 1rem;
+  max-width: min(320px, 70vw);
+  width: 100%;
+  height: auto;
+}
+
+#message {
+  font-size: clamp(1.25rem, 2.5vw + 1rem, 2rem);
+  letter-spacing: 0.03em;
+}
+
+#message span {
+  display: inline-block;
+}
+
+#countdown {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
